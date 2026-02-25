@@ -1,0 +1,43 @@
+name: budget_app
+description: "Gestion de budget personnel - Application Mobile"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Firebase
+  firebase_core: any
+  firebase_auth: any
+  cloud_firestore: any
+  
+  # Authentification Google
+  google_sign_in: any
+  
+  # State Management
+  provider: any
+  
+  # UI/UX
+  cupertino_icons: ^1.0.8
+  intl: any
+  fl_chart: any
+  image_picker: any
+  
+  # API externe
+  http: any
+  
+  # Utilitaires
+  shared_preferences: any
+  url_launcher: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
